@@ -8,7 +8,7 @@ repos:
     hooks:
     -   id: pytest
         name: pytest
-        entry: pytest --cov=ppp --cov-fail-under=100
+        entry: pytest --cov
         language: system
         types: [python]
         pass_filenames: false

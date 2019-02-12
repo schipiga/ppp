@@ -1,0 +1,6 @@
+[run]
+source=ppp
+omit=ppp/cli.py
+
+[report]
+fail_under=100

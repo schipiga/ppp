@@ -21,4 +21,9 @@ setup(
         'beautifulsoup4==4.7.1',
         'PyYAML==3.13',
     ],
+    entry_points={
+        "console_scripts": [
+            "links = ppp.cli:main",
+        ],
+    },
 )
