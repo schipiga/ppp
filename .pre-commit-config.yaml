@@ -3,11 +3,12 @@ repos:
     rev: v1.4.0
     hooks:
     -   id: flake8
+        exclude: ^docs/.*$
 -   repo: local
     hooks:
     -   id: pytest
         name: pytest
-        entry: pytest
+        entry: pytest --cov=ppp --cov-fail-under=100
         language: system
         types: [python]
         pass_filenames: false

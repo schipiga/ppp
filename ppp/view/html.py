@@ -7,8 +7,7 @@ __all__ = [
 ]
 
 
-TMPL = """
-<html>
+TMPL = """<html>
 <head>
 <title>
 Links
@@ -18,8 +17,7 @@ Links
 <h3>Total: %s</h3>
 %s
 <body>
-</html>
-"""
+</html>"""
 
 
 def render(links, enum=False):
