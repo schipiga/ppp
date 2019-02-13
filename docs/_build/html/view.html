@@ -9,10 +9,11 @@
     <title>view &#8212; Python Project Proto 0.0.1 documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="parser" href="parser.html" />
@@ -28,19 +29,124 @@
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="module-ppp.view">
 <span id="view"></span><h1>view<a class="headerlink" href="#module-ppp.view" title="Permalink to this headline">¶</a></h1>
 <p>Package to view links.</p>
+<dl class="function">
+<dt id="ppp.view.as_html">
+<code class="descclassname">ppp.view.</code><code class="descname">as_html</code><span class="sig-paren">(</span><em>links</em>, <em>enum=False</em><span class="sig-paren">)</span><a class="headerlink" href="#ppp.view.as_html" title="Permalink to this definition">¶</a></dt>
+<dd><p>Render links in HTML format.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>links</strong> (<em>list</em>) – Links sequence.</li>
+<li><strong>enum</strong> (<em>bool</em>) – Flag to enumerate each link.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">HTML with list of links.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ppp.view.as_json">
+<code class="descclassname">ppp.view.</code><code class="descname">as_json</code><span class="sig-paren">(</span><em>links</em><span class="sig-paren">)</span><a class="headerlink" href="#ppp.view.as_json" title="Permalink to this definition">¶</a></dt>
+<dd><p>Render links in JSON format.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>links</strong> (<em>list</em>) – Links sequence.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">JSON with list of links and total value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ppp.view.as_text">
+<code class="descclassname">ppp.view.</code><code class="descname">as_text</code><span class="sig-paren">(</span><em>links</em>, <em>enum=False</em><span class="sig-paren">)</span><a class="headerlink" href="#ppp.view.as_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Render links as plain text.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>links</strong> (<em>list</em>) – Links sequence.</li>
+<li><strong>enum</strong> (<em>bool</em>) – Flag to enumerate each link.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">Plain text with list of links.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="ppp.view.as_yaml">
+<code class="descclassname">ppp.view.</code><code class="descname">as_yaml</code><span class="sig-paren">(</span><em>links</em><span class="sig-paren">)</span><a class="headerlink" href="#ppp.view.as_yaml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Render links in YAML format.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>links</strong> (<em>list</em>) – Links sequence.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">YAML with list of links and total value.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </div>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python Project Proto</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ppp.html">ppp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loader.html">loader</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parser.html">parser</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">view</a></li>
+</ul>
+
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
@@ -48,13 +154,6 @@
   </ul></li>
 </ul>
 </div>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/view.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <div class="searchformwrapper">
@@ -67,6 +166,14 @@
     </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
         </div>
       </div>
       <div class="clearer"></div>
@@ -75,8 +182,8 @@
       &copy;2019, Sergei Chipiga.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
       <a href="_sources/view.rst.txt"

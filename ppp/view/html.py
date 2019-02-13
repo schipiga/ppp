@@ -21,6 +21,15 @@ Links
 
 
 def render(links, enum=False):
+    """Render links in HTML format.
+
+    Args:
+        links (list): Links sequence.
+        enum (bool): Flag to enumerate each link.
+
+    Returns:
+        string: HTML with list of links.
+    """
     chunks = []
     for i, l in enumerate(links):
         if enum:
