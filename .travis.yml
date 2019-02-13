@@ -7,4 +7,4 @@ install:
   - pip install -r dev-requirements.txt
 
 script:
-  - pytest --cov -v
+  - pre-commit run -a -v
