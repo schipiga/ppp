@@ -31,6 +31,17 @@ How to use
    $ links -h
    usage: links [-h] [--as {text,html,json,yaml}] [--enum] uri
 
+   Grab web links
+
+   positional arguments:
+     uri                   URI to retrieve links from
+
+   optional arguments:
+     -h, --help            show this help message and exit
+     --as {text,html,json,yaml}
+                           Result format type (text by default)
+     --enum                Add enumation for links (for text and html only)
+
    $ links https://pipedrive.com 
    https://app.pipedrive.com?return_url=https%3A%2F%2Fapp.pipedrive.com%2Fsettings%2Fpersonal%2Fcompanies
    https://www.pipedrive.com/et/terms-of-service
