@@ -13,9 +13,16 @@ links from web page and represent them in one of supported view variants.
 How to install
 --------------
 
-Install with ``pip`` from ``github``::
+**for usage**::
 
    pip install git+https://github.com/schipiga/ppp.git
+
+**for contribution**::
+
+   git clone https://github.com/schipiga/ppp.git
+   cd ppp
+   make install
+   . .venv/bin/activate
 
 ----------
 How to use
